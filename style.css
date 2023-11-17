@@ -23,7 +23,7 @@
 }
 
 html, body {                      /* geldt voor html en body */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
+  background-color: #EEEEE;    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
 }  
 
@@ -62,6 +62,9 @@ p {
   margin: 10px 0px;
   text-align: justify;            /* tekst links en rechts uitvullen */
 }
+.tekstssss {
+  float:right
+}
 
 img {
   margin: 10px 0px;
@@ -89,7 +92,7 @@ nav ul {                        /* <ul> die child is van <nav> */
   list-style-type: none;
   margin: auto;
   padding: 0;
-  background-color: #dddddd;
+  background-color: #c7d7eb;
   overflow: hidden;
 }
 
@@ -106,7 +109,7 @@ nav li a {
 }
 
 nav li a:hover {
-  background-color: #aaaaaa;
+  background-color: ##c50d0d;
 }
 
 nav li a.active {
