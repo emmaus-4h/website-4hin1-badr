@@ -24,7 +24,7 @@
 
 html, body {                      /* geldt voor html en body */
   background-color: #EEEEE;    /* achtergrondkleur lichtgrijs */
-  color: #303030;               /* tekstkleur donkergrijs */
+  color: #ffffff;               /* tekstkleur donkergrijs */
 }  
 
 div {                             /* geldt voor div */
@@ -37,6 +37,11 @@ div {                             /* geldt voor div */
 /************************* ALLE WEBPAGINA'S *************************/
 
 /* Indeling en opmaak voor alle pagina's */
+body{
+  background-image: url(afbeeldingen/fight\ background.jpeg);
+  background-position: center;
+  
+}
 
 .page {
   width: 700px;                   /* vaste breedte van 700 pixels */
@@ -71,7 +76,7 @@ img {
 }
 
 a {
-  color: darkblue;
+  color: #ef0101;
   text-decoration: none;
 }
 
